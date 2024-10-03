@@ -78,6 +78,21 @@
 
             #endregion
 
+            #region Nullable Refrence Type
+            ////Null is Deafult value of refrence type 
+
+            //String Message = "Hi";
+            //Message = null; //valid with Warning 
+            //Message = null!; // (!) null forgiveness opreator ; 
+
+            //String? Message02 = null; //vaild without warning
+
+
+
+
+
+            #endregion
+
         }
     }
 }
