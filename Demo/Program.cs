@@ -93,6 +93,29 @@
 
             #endregion
 
+            #region Null propragation opreator
+
+            //    int[] Numbers = default;
+
+            //    for (int i = 0; (Numbers !=null)&&(i<Numbers.Length); i++)
+            //        Console.WriteLine(Numbers[i]);
+
+            ////OR
+
+            //    for(int i=0; i<Numbers?.Length; i++)
+            //        Console.WriteLine(Numbers[i]);
+
+            ////code maintence by making it not checking if array = null ever iteration
+
+            //    if (Numbers != null)
+            //    {
+            //        for (int i = 0; i < Numbers.Length; i++)
+            //            Console.WriteLine(Numbers[i]);
+            //    }
+
+
+            #endregion
+
         }
     }
 }
