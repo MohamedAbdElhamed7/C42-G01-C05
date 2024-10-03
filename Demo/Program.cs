@@ -251,6 +251,22 @@
 
 
             #endregion
+
+            #region passing by params
+            //Static int SumArray (params int[] Arr)
+            //{
+            //    int sum = 0;
+            //    for(int i = 0; i < Arr.Length; i++) 
+            //    { 
+            //        sum += Arr[i];
+            //        return sum;
+            //    }
+            //}
+
+            //int[] Numbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //int Reusalt = SumArray (Numbers);
+            //Console.WriteLine (Reusalt);
+            #endregion
         }
     }
 }
