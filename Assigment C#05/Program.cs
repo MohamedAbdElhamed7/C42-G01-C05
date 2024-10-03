@@ -152,6 +152,29 @@
             //int a = 25;
             //Console.WriteLine(SumofDigits(a));
             #endregion
+
+            #region Q5
+            //Create a function named "IsPrime", which receives an integer number
+            //and retuns true if it is prime, or false if it is not:
+
+            //static bool IsPrime(int n)
+            //{
+            //    if (n < 2)
+            //    {
+            //        return false;
+            //    }
+
+            //    for(int i = 2; i*i <= n; i++)
+            //    {
+            //        if(n % i == 0)
+            //        {
+            //            return false;
+            //        }
+            //    }
+
+            //    return true;
+            //} 
+            #endregion
         }
     }
 }
