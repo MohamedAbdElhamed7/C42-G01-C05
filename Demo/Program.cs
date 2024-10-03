@@ -116,6 +116,63 @@
 
             #endregion
 
+            #region Passing Parameters (Value Type)
+
+            //Passing Parameters:-
+            //0)Default
+            //1)Value
+            //2)Refrence
+            //3) out
+            //4)paras
+
+            //---------------------------------------------------------------------//
+            //Example Value type Paramters [passing by value] :-
+            //-----------------------------------------------
+
+            //Static Void Swap (int x , int y)
+            //{
+            //    int temp = x;
+            //    int x =y ;  
+            //    yield = temp
+            //}
+
+            //int a=10 , b=20 ;
+            //Console.WriteLine($"A={a}"); //10
+            //Console.WriteLine($"B={b}"); //20
+            //Swap(a, b);
+            //Console.WriteLine("After swap")
+            //Console.WriteLine($"A={a}");//10 
+            //Console.WriteLine($"B={b}");//20
+
+            //Summary Why swap function faild 
+            //when clr calling function make stackframe for this function this stackframe having all parameters 
+            // and local variable for this function and after function done stack frame will delete 
+            //passing by value vaild bec it work on copy from varibles and it not work on orginal variables
+
+            //---------------------------------------------------------------------//
+            //Example Value type Paramters [passing by Ref] :-
+            //-----------------------------------------------
+
+            //Static Void Swap (ref int x , ref int y)
+            //{
+            //    int temp = x;
+            //    int x =y ;  
+            //    yield = temp
+            //}
+
+            //int a=10 , b=20 ;
+            //Console.WriteLine($"A={a}"); //10
+            //Console.WriteLine($"B={b}"); //20
+            //Swap(ref a, ref b); // passing by ref 
+            //Console.WriteLine("After swap")
+            //Console.WriteLine($"A={a}");//20
+            //Console.WriteLine($"B={b}");//10
+
+            //swap function succseded bec it work on the orginal variables
+
+
+            #endregion
+
         }
     }
 }
