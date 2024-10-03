@@ -28,6 +28,56 @@
             //Dog ==> (Dog) Animal (Animal is a Dog) [not safe]
             #endregion
 
+            #region Nullable Value Type
+            //Null as a value is valid only with reference type
+
+            //int x = null //invlaid
+            //int? y = null //valid
+            //int? y => (?) allow int + null
+
+            // Nullable <int> Number ;  //int? Number; ==> Syntax Sugar
+
+            //int x = 10;
+            //int? y = x; // valid // Safe implicit casting
+
+
+            //int? Number01 = null; 
+            //int? Number02 = (int)Numbeer01; //Explicit casting
+            //unsafe cating
+            //invalid opreation exception
+
+            //-------------------------------------------------------------//
+            //Example2 :-
+
+            //int? k= null;
+            //int l;
+            ////l=(int)k; //unsafe // to make safe u have to use condition 
+
+            //if(k!=null)
+            //{
+
+            //    l = (int)k;
+            //}
+            //else
+            //    l= 0;
+
+            ////OR
+
+            //if (k.HasValue)
+            //{ 
+            //    l=k.Value;
+            //}
+            //else
+            //    l= 0; 
+
+            ////OR
+            //l=k.HasValue ? k.Value : 0;
+            //l=k !=null ?(int) k : 0;    
+
+
+
+            #endregion
+
         }
     }
 }
