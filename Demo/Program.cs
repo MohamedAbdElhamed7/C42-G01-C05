@@ -173,6 +173,64 @@
 
             #endregion
 
+            #region Reference Type Paramters
+
+            //Example : Reference type Paramters [passing by value] :-
+            //-----------------------------------------------
+
+            //Public Static int SumArray (int[] Arr)
+            //{
+            //    int Sum = 0;
+            //    Arrr[0] = 100;
+            //    for (int i = 0; i < Arr.Length; i++)
+            //    {
+            //        Sum += Arrr[i];
+            //    }
+            //}
+
+            //int[] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(Numbers)); //105
+            //Console.WriteLine(Numbers[0]); //100
+
+            //---------------------------------------------------------------//
+            //Example : Reference type Paramters [passing by Ref] :-
+            //-----------------------------------------------
+
+            //Public Static int SumArray (ref int[] Arr)
+            //{
+            //    int Sum = 0;
+            //    Arrr[0] = 100;
+            //    for (int i = 0; i < Arr.Length; i++)
+            //    {
+            //        Sum += Arrr[i];
+            //         refturn Sum;
+            //    }
+            //}
+
+            //int[] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(Numbers)); //105
+            //Console.WriteLine(Numbers[0]); //100
+
+            //--------------------------------------------------------------------------------------------//
+            //Example : Reference type Paramters [passing by value] :-
+            //-----------------------------------------------
+
+            //Public Static int SumArray ( int[] Arr)
+            //{
+            //    int Sum = 0;
+            //    Arrr = new int[] {4,5,6};
+            //    for (int i = 0; i < Arr.Length; i++)
+            //    {
+            //        Sum += Arrr[i];
+            //         refturn Sum;
+            //    }
+            //}
+
+            //int[] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(Numbers)); //15
+            //Console.WriteLine(Numbers[0]); //1
+            #endregion
+
         }
     }
 }
