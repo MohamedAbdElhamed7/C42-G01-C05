@@ -131,6 +131,27 @@
             //Console.WriteLine(sumresult);
             //Console.WriteLine(minresult);
             #endregion
+
+            #region Q4
+            //Write a program in C# Sharp to create a function to calculate
+            //the sum of the individual digits of a given number.
+
+            //static int SumofDigits(int n)
+            //{
+            //    int ans = 0;
+
+            //    while (n > 0)
+            //    {
+            //        ans += n % 10;
+            //        n /= 10;
+            //    }
+
+            //    return ans;
+            //}
+
+            //int a = 25;
+            //Console.WriteLine(SumofDigits(a));
+            #endregion
         }
     }
 }
