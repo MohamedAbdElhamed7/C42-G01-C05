@@ -108,6 +108,29 @@
             //Console.WriteLine(Numbers[0]); // 4
 
             #endregion
+
+            #region Q3
+            //Q4.Write a c# Function that accept 4 parameters from user and return
+            //result of summation and subtracting of two numbers
+
+
+            //static void SumMin(int x, int y, out int sum, out int min)
+            //{
+            //    sum = x + y;
+            //    if (x > y)
+            //        min = x - y;
+            //    else
+            //        min = y - x;
+            //}
+
+
+            //int a = 10, b = 20;
+            //int sumresult, minresult;
+            //SumMin(a, b, out sumresult, out minresult);
+
+            //Console.WriteLine(sumresult);
+            //Console.WriteLine(minresult);
+            #endregion
         }
     }
 }
