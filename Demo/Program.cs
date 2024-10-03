@@ -231,6 +231,26 @@
             //Console.WriteLine(Numbers[0]); //1
             #endregion
 
+            #region Passing by out
+            //Static void SumMul(int x, int y, out int sum ,out int mul)
+            //{
+            //    sum = x + y;
+            //    mul = x*y;
+            //}
+
+            //int a = 10, b = 20;
+            //int SumResult, MultResult;
+            //SumMul(a, b, out SumResult, outMultResult);
+
+            //Console.WriteLine(SumResult);
+            //Console.WriteLine(MultResult);
+
+            //if u want to passing out by ref so varaibles mut be intialized
+            //int SumResult=0, MultResult=0;
+
+
+
+            #endregion
         }
     }
 }
