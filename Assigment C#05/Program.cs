@@ -1,4 +1,6 @@
-﻿namespace Assigment_C_05
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assigment_C_05
 {
     internal class Program
     {
@@ -175,6 +177,40 @@
             //    return true;
             //} 
             #endregion
+
+            #region Q6
+            //Create a function named MinMaxArray, to return the minimum and maximum
+            //values stored in an array, using reference parameters
+
+            //    static void MinMaxArray(int[] arr, ref int minVal, ref int maxVal)
+            //    {
+            //        minVal = arr[0];
+            //        maxVal = arr[0];
+
+            //        for (int i = 1; i < arr.Length; i++)
+            //        {
+            //            if (arr[i] < minVal)
+            //            {
+            //                minVal = arr[i];
+            //            }
+            //            if (arr[i] > maxVal)
+            //            {
+            //                maxVal = arr[i];
+            //            }
+            //        }
+            //    }
+
+            //        int[] arr = { 4, 1, 9, -2, 7, 6 };
+            //        int minVal=0, maxVal=0;
+
+
+            //        MinMaxArray(arr, ref minVal, ref maxVal);
+            //        Console.WriteLine("Minimum value: " + minVal);
+            //        Console.WriteLine("Maximum value: " + maxVal);
+
+            #endregion
+
         }
     }
-}
+
+ }
